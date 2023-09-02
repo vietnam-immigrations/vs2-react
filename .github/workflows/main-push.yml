@@ -22,8 +22,8 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-#      - name: Run lint
-#        run: yarn lint
+      - name: Run lint
+        run: yarn lint
 
       - name: Check code formatting
         run: yarn format:check
@@ -32,7 +32,7 @@ jobs:
         run: yarn build
 
       - name: Publish
-        run: yarn publish --access public
+        run: yarn npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
