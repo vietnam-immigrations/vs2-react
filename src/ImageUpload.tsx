@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { MuiFileInput } from "mui-file-input";
+import { MuiFileInput } from "@vietnamvisa/mui-file-input";
 
 export interface ImageUploadProps {
   onImageSelect: (selectedImage: File | null) => void;

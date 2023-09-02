@@ -1,8 +1,8 @@
 import React, { MutableRefObject, ReactEventHandler, useCallback, useEffect, useState } from "react";
 import ReactCrop, { centerCrop, Crop, makeAspectCrop } from "react-image-crop";
 import "react-image-crop/dist/ReactCrop.css";
-import { MuiFileInput } from "mui-file-input";
 import Grid from "@mui/material/Grid";
+import { MuiFileInput } from "@vietnamvisa/mui-file-input";
 
 export interface ImageCropUploadProps {
   onCropComplete: (croppedFile: File | null) => void;
