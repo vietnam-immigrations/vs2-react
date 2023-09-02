@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Meta, StoryFn } from "@storybook/react";
-import ImageUpload, { ImageUploadProps } from "./ImageUpload";
+import { ImageUpload, ImageUploadProps } from "./index";
 
 export default {
   title: "ImageUpload",

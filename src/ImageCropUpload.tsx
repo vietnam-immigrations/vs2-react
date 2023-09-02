@@ -4,7 +4,7 @@ import "react-image-crop/dist/ReactCrop.css";
 import { MuiFileInput } from "mui-file-input";
 import Grid from "@mui/material/Grid";
 
-interface ImageCropUploadProps {
+export interface ImageCropUploadProps {
   onCropComplete: (croppedFile: File | null) => void;
   label: string;
   className: string;
