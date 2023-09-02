@@ -11,12 +11,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: '18'
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
         run: yarn
@@ -31,6 +32,6 @@ jobs:
         run: yarn build
 
       - name: Publish
-        run: yarn publish
+        run: yarn publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
