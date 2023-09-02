@@ -1,5 +1,9 @@
-name: CI
-on: [push]
+name: Release
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     name: Build, lint, and test
@@ -27,3 +31,5 @@ jobs:
 
       - name: Build
         run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
