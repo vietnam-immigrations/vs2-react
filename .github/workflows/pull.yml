@@ -2,6 +2,7 @@ name: size
 on: [pull_request]
 jobs:
   pull-request:
+    name: PR checks
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
