@@ -8,7 +8,7 @@ export interface H1Props {
   sx?: SxProps<Theme>;
 }
 
-export default function H1({ children, sx }: H1Props) {
+export function H1({ children, sx }: H1Props) {
   return (
     <Typography paddingTop="1.2rem" paddingBottom="1rem" sx={sx} variant="h1">
       {children}

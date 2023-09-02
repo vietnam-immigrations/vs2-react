@@ -8,7 +8,7 @@ export interface H4Props {
   sx?: SxProps<Theme>;
 }
 
-export default function H4({ children, sx }: H4Props) {
+export function H4({ children, sx }: H4Props) {
   const theme = useTheme();
   return (
     <Typography paddingTop="1.2rem" paddingBottom="1rem" sx={sx} color={theme.palette.primary.main} variant="h4">

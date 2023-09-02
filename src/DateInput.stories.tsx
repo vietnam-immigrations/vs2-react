@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Meta, StoryFn } from "@storybook/react";
 import { ThemeProvider } from "@mui/material";
-import theme from "./theme";
-import { DateInput, DateInputProps } from "./index";
+import { DateInput, DateInputProps, theme } from "./index";
 
 export default {
   title: "DateInput",

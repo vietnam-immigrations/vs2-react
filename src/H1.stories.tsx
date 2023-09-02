@@ -1,8 +1,7 @@
 import React from "react";
 import { Meta, StoryFn } from "@storybook/react";
 import { ThemeProvider } from "@mui/material";
-import theme from "./theme";
-import { H1, H1Props } from "./index";
+import { H1, H1Props, theme } from "./index";
 
 export default {
   title: "H1",

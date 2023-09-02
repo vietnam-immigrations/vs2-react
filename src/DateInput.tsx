@@ -10,7 +10,7 @@ export interface DateInputProps {
   required?: boolean;
 }
 
-export default function DateInput({ value, onChange, label, className, required }: DateInputProps) {
+export function DateInput({ value, onChange, label, className, required }: DateInputProps) {
   const valid = value === "" || isValidDateString(value);
   const helperText = valid ? null : "Date format DD/MM/YYYY";
   return (
