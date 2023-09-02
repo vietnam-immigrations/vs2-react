@@ -1,3 +1,14 @@
 node_modules
 dist
 .idea
+
+# Yarn 2+ (Berry)
+## Ignore the install state file which is environment-specific
+.yarn/install-state.gz
+
+## Optional: You can ignore the unplugged directory if you don't have
+## any packages that need to be unplugged. Otherwise, you might want to keep it.
+# .yarn/unplugged/
+
+## Optional: If you're not using Yarn's PnP feature, you might have a .pnp.js or .pnp.cjs file to ignore.
+# .pnp.*
