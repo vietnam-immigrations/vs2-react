@@ -22,8 +22,8 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-#      - name: Run lint
-#        run: yarn lint
+      - name: Run lint
+        run: yarn lint
 
       - name: Check code formatting
         run: yarn format:check
