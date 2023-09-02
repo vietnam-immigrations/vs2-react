@@ -4,23 +4,17 @@ import ImageUpload, { ImageUploadProps } from "./ImageUpload";
 
 export default {
   title: "ImageUpload",
-  component: ImageUpload,
+  component: ImageUpload
 } as Meta;
 
 const Template: StoryFn<ImageUploadProps> = (args) => {
   const [file, setFile] = useState<File | null>(null);
 
-  return (
-    <ImageUpload
-      {...args}
-      value={file}
-      onImageSelect={(selectedImage) => setFile(selectedImage)}
-    />
-  );
+  return <ImageUpload {...args} value={file} onImageSelect={(selectedImage) => setFile(selectedImage)} />;
 };
 
 export const Default = Template.bind({});
 Default.args = {
   label: "Upload Image",
-  className: "image-upload-class",
+  className: "image-upload-class"
 };

@@ -1,10 +1,4 @@
-import React, {
-  MutableRefObject,
-  ReactEventHandler,
-  useCallback,
-  useEffect,
-  useState
-} from "react";
+import React, { MutableRefObject, ReactEventHandler, useCallback, useEffect, useState } from "react";
 import ReactCrop, { centerCrop, Crop, makeAspectCrop } from "react-image-crop";
 import "react-image-crop/dist/ReactCrop.css";
 import { MuiFileInput } from "mui-file-input";
@@ -17,12 +11,7 @@ interface ImageCropUploadProps {
   resetFileRef: MutableRefObject<(() => void) | null>;
 }
 
-export default function ImageCropUpload({
-  onCropComplete,
-  label,
-  className,
-  resetFileRef
-}: ImageCropUploadProps) {
+export default function ImageCropUpload({ onCropComplete, label, className, resetFileRef }: ImageCropUploadProps) {
   const [originalImageUrl, setOriginalImageUrl] = useState<string | null>(null);
   const [croppedImageUrl, setCroppedImageUrl] = useState<string | null>(null); // state for cropped image URL
   const [crop, setCrop] = useState<Crop>();
@@ -80,11 +69,7 @@ export default function ImageCropUpload({
   };
 
   const getCroppedImg = useCallback(
-    (
-      image: HTMLImageElement,
-      crop: Crop,
-      callback: (blob: Blob) => void
-    ): void => {
+    (image: HTMLImageElement, crop: Crop, callback: (blob: Blob) => void): void => {
       const canvas = document.createElement("canvas");
       const scaleX = image.naturalWidth / image.width;
       const scaleY = image.naturalHeight / image.height;
@@ -158,12 +143,7 @@ export default function ImageCropUpload({
               onComplete={onCropCompleteFunc}
               onChange={(newCrop) => setCrop(newCrop)}
             >
-              <img
-                width="100%"
-                src={originalImageUrl}
-                onLoad={onImageLoaded}
-                alt="Preview"
-              />
+              <img width="100%" src={originalImageUrl} onLoad={onImageLoaded} alt="Preview" />
             </ReactCrop>
           )}
         </Grid>

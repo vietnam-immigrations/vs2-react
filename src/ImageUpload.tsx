@@ -8,12 +8,7 @@ export interface ImageUploadProps {
   value: File | null;
 }
 
-export default function ImageUpload({
-  onImageSelect,
-  label,
-  className,
-  value,
-}: ImageUploadProps) {
+export default function ImageUpload({ onImageSelect, label, className, value }: ImageUploadProps) {
   const [src, setSrc] = useState<string | null>(null);
 
   useEffect(() => {
@@ -45,13 +40,7 @@ export default function ImageUpload({
         className={className}
         value={value}
       />
-      {src && (
-        <img
-          style={{ marginTop: "1rem", width: "100%" }}
-          src={src}
-          alt="Preview"
-        />
-      )}
+      {src && <img style={{ marginTop: "1rem", width: "100%" }} src={src} alt="Preview" />}
     </div>
   );
 }

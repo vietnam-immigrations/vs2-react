@@ -2,7 +2,7 @@
   "name": "@vietnamvisa/vs2-react",
   "version": "1.0.0",
   "description": "React components for Vietnam Visa applications",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/vietnam-immigrations/vs2-react.git",
   "author": "Nam Truong Le",
   "license": "MIT",
@@ -11,7 +11,9 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "format": "prettier --write \"./src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
-    "format:check": "prettier --check \"./src/**/*.{ts,tsx,js,jsx,json,css,md}\""
+    "format:check": "prettier --check \"./src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",

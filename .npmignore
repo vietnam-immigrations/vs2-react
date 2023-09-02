@@ -1,0 +1,33 @@
+# Directories
+node_modules/
+src/
+__tests__/
+.storybook/
+.github/
+public/
+
+# Files
+*.log
+*.ts
+*.tsx
+*.test.js
+*.test.jsx
+*.test.ts
+*.test.tsx
+*.config.js
+tsconfig.json
+babel.config.js
+jest.config.js
+yarn.lock
+package-lock.json
+README.md
+
+# You might not want to ignore the README, as it can be helpful for those viewing your package on npmjs.com.
+# I've added it here just in case, but you might want to remove it from .npmignore.
+
+# Others
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.orig
