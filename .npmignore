@@ -9,6 +9,7 @@ public/
 # Files
 *.log
 *.ts
+!*.d.ts
 *.tsx
 *.test.js
 *.test.jsx
