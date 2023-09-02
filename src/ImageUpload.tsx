@@ -8,7 +8,7 @@ export interface ImageUploadProps {
   value: File | null;
 }
 
-export default function ImageUpload({ onImageSelect, label, className, value }: ImageUploadProps) {
+export function ImageUpload({ onImageSelect, label, className, value }: ImageUploadProps) {
   const [src, setSrc] = useState<string | null>(null);
 
   useEffect(() => {

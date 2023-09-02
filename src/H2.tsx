@@ -8,7 +8,7 @@ export interface H2Props {
   sx?: SxProps<Theme>;
 }
 
-export default function H2({ children, sx }: H2Props) {
+export function H2({ children, sx }: H2Props) {
   const theme = useTheme();
   return (
     <Typography paddingTop="1.2rem" paddingBottom="1rem" sx={sx} color={theme.palette.primary.main} variant="h2">

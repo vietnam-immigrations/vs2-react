@@ -8,7 +8,7 @@ export interface H3Props {
   sx?: SxProps<Theme>;
 }
 
-export default function H3({ children, sx }: H3Props) {
+export function H3({ children, sx }: H3Props) {
   const theme = useTheme();
   return (
     <Typography paddingTop="1.2rem" paddingBottom="1rem" sx={sx} color={theme.palette.primary.main} variant="h3">

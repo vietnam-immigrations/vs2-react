@@ -11,7 +11,7 @@ export interface ImageCropUploadProps {
   resetFileRef: MutableRefObject<(() => void) | null>;
 }
 
-export default function ImageCropUpload({ onCropComplete, label, className, resetFileRef }: ImageCropUploadProps) {
+export function ImageCropUpload({ onCropComplete, label, className, resetFileRef }: ImageCropUploadProps) {
   const [originalImageUrl, setOriginalImageUrl] = useState<string | null>(null);
   const [croppedImageUrl, setCroppedImageUrl] = useState<string | null>(null); // state for cropped image URL
   const [crop, setCrop] = useState<Crop>();
