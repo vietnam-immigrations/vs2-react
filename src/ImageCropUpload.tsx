@@ -31,6 +31,13 @@ export function ImageCropUpload({ onCropComplete, label, className, resetFileRef
   }, [resetFileRef]);
 
   useEffect(() => {
+    setOriginalImageUrl(null);
+    setCroppedImageUrl(null);
+    setCrop(undefined);
+    setImageRef(null);
+    setFileName("");
+    setFileType("");
+
     if (originalFile) {
       const reader = new FileReader();
       reader.onload = () => {
@@ -39,10 +46,6 @@ export function ImageCropUpload({ onCropComplete, label, className, resetFileRef
         setFileType(originalFile.type);
       };
       reader.readAsDataURL(originalFile);
-    } else {
-      setOriginalImageUrl(null);
-      setFileName("");
-      setFileType("");
     }
   }, [originalFile]);
 
@@ -137,6 +140,7 @@ export function ImageCropUpload({ onCropComplete, label, className, resetFileRef
                 marginTop: "1rem",
                 width: "100%"
               }}
+              keepSelection
               aspect={4 / 6}
               crop={crop}
               ruleOfThirds
