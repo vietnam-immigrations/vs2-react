@@ -5,6 +5,8 @@ __tests__/
 .storybook/
 .github/
 public/
+.yarn
+.idea
 
 # Files
 *.log
