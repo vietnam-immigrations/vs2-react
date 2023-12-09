@@ -5343,7 +5343,7 @@ __metadata:
     eslint-config-prettier: ^9.0.0
     eslint-plugin-prettier: ^5.0.0
     eslint-plugin-react: ^7.33.2
-    mui-file-input: ^3.0.1
+    mui-file-input: ^4.0.0
     prettier: ^3.0.3
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -10341,15 +10341,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mui-file-input@npm:^3.0.1":
-  version: 3.0.2
-  resolution: "mui-file-input@npm:3.0.2"
+"mui-file-input@npm:^4.0.0":
+  version: 4.0.3
+  resolution: "mui-file-input@npm:4.0.3"
   dependencies:
     pretty-bytes: ^6.1.1
   peerDependencies:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@mui/icons-material": ^5.0.0
     "@mui/material": ^5.0.0
     "@types/react": ^18.0.0
     react: ^18.0.0
@@ -10357,7 +10356,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: d554d9cdb512b2951f234afb5b8f4b6d8fae1058fcd54b589438ed4ccb98699f5e1ed2b2caf90da945c57ec81606dc4543238df4e4311960fe144c0784e2cf28
+  checksum: fa62296e777a3ce0dd9b6242943c52440657808afd24d2683be4c0b9233d56fdbb7b1f873fab6e2a9ce85c3296eca1af380958623a5e3973109a5ef2f1de16c3
   languageName: node
   linkType: hard
 
