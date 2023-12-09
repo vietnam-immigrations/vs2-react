@@ -5347,7 +5347,7 @@ __metadata:
     prettier: ^3.0.3
     react: ^18.2.0
     react-dom: ^18.2.0
-    react-image-crop: ^10.1.8
+    react-image-crop: ^11.0.0
     storybook: ^7.4.0
     tsup: ^8.0.0
     typescript: ^5.2.2
@@ -11480,12 +11480,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-image-crop@npm:^10.1.8":
-  version: 10.1.8
-  resolution: "react-image-crop@npm:10.1.8"
+"react-image-crop@npm:^11.0.0":
+  version: 11.0.1
+  resolution: "react-image-crop@npm:11.0.1"
   peerDependencies:
     react: ">=16.13.1"
-  checksum: c53c412f6cfdd1d80c0691a42c6c353afb4dd2dca3209e8c3ec64a9d01d1dc6a6940221be9a0adaee5f0c66276094aa6f3d4a24dcabeab2ca3ca78fc62531e24
+  checksum: 1652648b449392cd14c3106a8bf96e0923b6a7a0aa29431d5b3587bc7d027478c5683e1fa9ddd759f2147d33a5a4c54c2b7e3bb3e8335128d3b9b58a06ead768
   languageName: node
   linkType: hard
 
