@@ -11,7 +11,14 @@ export interface H2Props {
 export function H2({ children, sx }: H2Props) {
   const theme = useTheme();
   return (
-    <Typography paddingTop="1.2rem" paddingBottom="1rem" sx={sx} color={theme.palette.primary.main} variant="h2">
+    <Typography
+      fontSize="2rem"
+      paddingTop="1.2rem"
+      paddingBottom="1rem"
+      sx={sx}
+      color={theme.palette.primary.main}
+      variant="h2"
+    >
       {children}
     </Typography>
   );

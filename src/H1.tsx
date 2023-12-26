@@ -10,7 +10,7 @@ export interface H1Props {
 
 export function H1({ children, sx }: H1Props) {
   return (
-    <Typography paddingTop="1.2rem" paddingBottom="1rem" sx={sx} variant="h1">
+    <Typography paddingTop="1.2rem" paddingBottom="1rem" sx={sx} variant="h1" fontSize="2.5rem">
       {children}
     </Typography>
   );

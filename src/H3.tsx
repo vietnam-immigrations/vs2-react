@@ -11,7 +11,14 @@ export interface H3Props {
 export function H3({ children, sx }: H3Props) {
   const theme = useTheme();
   return (
-    <Typography paddingTop="1.2rem" paddingBottom="1rem" sx={sx} color={theme.palette.primary.main} variant="h3">
+    <Typography
+      fontSize="1.7rem"
+      paddingTop="1.2rem"
+      paddingBottom="1rem"
+      sx={sx}
+      color={theme.palette.primary.main}
+      variant="h3"
+    >
       {children}
     </Typography>
   );
