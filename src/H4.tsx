@@ -11,7 +11,14 @@ export interface H4Props {
 export function H4({ children, sx }: H4Props) {
   const theme = useTheme();
   return (
-    <Typography paddingTop="1.2rem" paddingBottom="1rem" sx={sx} color={theme.palette.primary.main} variant="h4">
+    <Typography
+      fontSize="1.3rem"
+      paddingTop="1.2rem"
+      paddingBottom="1rem"
+      sx={sx}
+      color={theme.palette.primary.main}
+      variant="h4"
+    >
       {children}
     </Typography>
   );
