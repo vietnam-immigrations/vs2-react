@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Meta, StoryFn } from "@storybook/react";
-import { ThemeProvider } from "@mui/material";
-import { DateInputProps, theme } from "./index";
+import { DateInputProps } from "./index";
 import { DateSelect } from "./DateSelect";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -21,9 +20,7 @@ export const Default: StoryFn<DateInputProps> = (args) => {
 
   return (
     <Box>
-      <ThemeProvider theme={theme}>
-        <DateSelect {...args} value={val} onChange={setVal} />
-      </ThemeProvider>
+      <DateSelect {...args} value={val} onChange={setVal} />
       <Typography>Value: {val}</Typography>
     </Box>
   );

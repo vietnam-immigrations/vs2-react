@@ -9,4 +9,3 @@ export * from "./AppMenu";
 export * from "./DateSelect";
 
 export * from "./validator";
-export * from "./theme";
