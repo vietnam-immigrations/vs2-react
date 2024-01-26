@@ -1,7 +1,6 @@
 import React from "react";
 import { Meta, StoryFn } from "@storybook/react";
-import { ThemeProvider } from "@mui/material";
-import { AppMenu, AppMenuProps, theme } from "./index";
+import { AppMenu, AppMenuProps } from "./index";
 import { MenuButtonProps } from "./MenuButton";
 
 export default {
@@ -53,9 +52,5 @@ export default {
 } as Meta;
 
 export const Default: StoryFn<AppMenuProps> = (args) => {
-  return (
-    <ThemeProvider theme={theme}>
-      <AppMenu {...args} />
-    </ThemeProvider>
-  );
+  return <AppMenu {...args} />;
 };

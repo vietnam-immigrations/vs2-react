@@ -1,7 +1,6 @@
 import React from "react";
 import { Meta, StoryFn } from "@storybook/react";
-import { ThemeProvider } from "@mui/material";
-import { H2, H2Props, theme } from "./index";
+import { H2, H2Props } from "./H2";
 
 export default {
   title: "H2",
@@ -12,9 +11,5 @@ export default {
 } as Meta;
 
 export const Default: StoryFn<H2Props> = (args) => {
-  return (
-    <ThemeProvider theme={theme}>
-      <H2 {...args}>Header 2</H2>
-    </ThemeProvider>
-  );
+  return <H2 {...args}>Header 2</H2>;
 };
