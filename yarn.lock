@@ -5538,7 +5538,7 @@ __metadata:
     prettier: "npm:^3.0.3"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    react-image-crop: "npm:^11.0.0"
+    react-image-crop: "npm:^11.0.5"
     storybook: "npm:^7.4.0"
     tsup: "npm:^8.0.0"
     typescript: "npm:^5.2.2"
@@ -11699,7 +11699,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-image-crop@npm:^11.0.0":
+"react-image-crop@npm:^11.0.5":
   version: 11.0.5
   resolution: "react-image-crop@npm:11.0.5"
   peerDependencies:
