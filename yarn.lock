@@ -10561,8 +10561,8 @@ __metadata:
   linkType: hard
 
 "mui-file-input@npm:^4.0.0":
-  version: 4.0.3
-  resolution: "mui-file-input@npm:4.0.3"
+  version: 4.0.4
+  resolution: "mui-file-input@npm:4.0.4"
   dependencies:
     pretty-bytes: "npm:^6.1.1"
   peerDependencies:
@@ -10575,7 +10575,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/1ec7682a50a015126cd9ddf2d33754c170715815c569aef05a1d83f3eb3956f480c1a91c3067238d7df8c80c6566d166ced4b138a91a4211795c4437259d0b54
+  checksum: 10c0/67dc0452b7bb7df5040dcbcc9e235c558ee95cf7b1b9d6100a48b14202c4ec2115eb2d37ffd224e9ccc83928b39e063829f484948d14c388be5006f44c2999d1
   languageName: node
   linkType: hard
 
