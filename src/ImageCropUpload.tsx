@@ -1,3 +1,5 @@
+"use client";
+
 import React, { MutableRefObject, ReactEventHandler, useCallback, useEffect, useState } from "react";
 import ReactCrop, { centerCrop, Crop, makeAspectCrop } from "react-image-crop";
 import "react-image-crop/dist/ReactCrop.css";
