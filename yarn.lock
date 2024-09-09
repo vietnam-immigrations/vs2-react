@@ -13195,11 +13195,11 @@ __metadata:
   linkType: hard
 
 "react-image-crop@npm:^11.0.5":
-  version: 11.0.6
-  resolution: "react-image-crop@npm:11.0.6"
+  version: 11.0.7
+  resolution: "react-image-crop@npm:11.0.7"
   peerDependencies:
     react: ">=16.13.1"
-  checksum: 10c0/8b3bfbfdb34938e16f224090194ad42a72a6265d01980c2525cfdaf1afee0b711e6f457caa854938ef8c68940f15a8f32cad1c2e6440dd75625611f867b385d7
+  checksum: 10c0/2adacb940ea51ddbf09671b80fb30bd92e66bad24efaa3ddfe600c588757508ec418da1b9347a2ee121034ba76c6d8b1e37619d06d52baa28854bfe6ef629efa
   languageName: node
   linkType: hard
 
