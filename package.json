@@ -1,6 +1,6 @@
 {
   "name": "@vietnamvisa/vs2-react",
-  "version": "1.6.25",
+  "version": "1.6.26",
   "description": "React components for Vietnam Visa applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -54,7 +54,7 @@
     "prettier": "^3.0.3",
     "storybook": "^7.4.0",
     "tsup": "^8.0.0",
-    "typescript": "^5.2.2"
+    "typescript": "^6.0.0"
   },
   "packageManager": "yarn@4.13.0"
 }
